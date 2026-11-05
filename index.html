@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Cherri Dawn Redd: gospel singer, TBN vocalist and worship leader. New music from Nashville coming in 2027.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cherri Dawn Redd">
+<meta property="og:title" content="Cherri Dawn Redd">
+<meta property="og:description" content="Gospel singer. New music from Nashville coming in 2027.">
+<meta property="og:image" content="https://courtney-blankenship.github.io/cherridawnredd/media/cherri-dawn-redd-share.jpg">
+<meta property="og:image:secure_url" content="https://courtney-blankenship.github.io/cherridawnredd/media/cherri-dawn-redd-share.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="Cherri Dawn Redd, gospel singer">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://courtney-blankenship.github.io/cherridawnredd/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://courtney-blankenship.github.io/cherridawnredd/media/cherri-dawn-redd-share.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23f6c445'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' font-family='Georgia,serif' fill='%233f2533'%3EC%3C/text%3E%3C/svg%3E">
+<title>Cherri Dawn Redd</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Tinos:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@1,400;1,500&display=swap">
+<style>
+/* Layout: full-screen portrait up top like a classic artist site, then clean two-column sections on warm ivory. One warm light theme by design. */
+:root{
+  color-scheme:light;
+  --bg:#fffaf2; --surface:#fdf1cf; --fg:#3f2533; --muted:#7b6068; --line:#efdcc6;
+  --yellow:#f6c445; --on-yellow:#3f2533; --accent:#c65d72; --blush:#f8dde0;
+  --display:"Tinos","Times New Roman",Times,serif;
+  --body:"Tinos","Times New Roman",Times,serif;
+  --mark:"Jost","Futura","Century Gothic",sans-serif;
+  --script:"Cormorant Garamond","Garamond","Times New Roman",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:18px;line-height:1.65}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.label{font-family:var(--mark);font-weight:400;font-size:.74rem;letter-spacing:.24em;text-transform:uppercase;color:var(--accent)}
+h1,h2,h3{font-family:var(--display);font-weight:700;text-wrap:balance;margin:0}
+h2{font-family:var(--script);font-style:italic;font-weight:500;font-size:clamp(2.3rem,4.8vw,3.4rem);line-height:1.1;margin-top:6px}
+.hero .script,.also strong,.two h3,.nash::after{font-style:italic;font-weight:500}
+
+/* nav floats over the photo */
+header.top{position:absolute;inset:0 0 auto;z-index:10;color:#fff}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding-block:22px}
+.mark{font-family:var(--mark);font-weight:300;text-transform:uppercase;letter-spacing:.22em;font-size:1.15rem;text-decoration:none}
+header.top ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+header.top ul a{text-decoration:none;font-size:1.08rem;text-shadow:0 1px 8px rgba(0,0,0,.35)}
+header.top ul a:hover{text-decoration:underline;text-underline-offset:5px}
+header.top .mark{text-shadow:0 1px 8px rgba(0,0,0,.35)}
+
+/* hero: her photo front and center */
+.hero{position:relative;height:min(94vh,940px);min-height:600px;overflow:hidden;isolation:isolate;display:flex;align-items:flex-end;justify-content:center;text-align:center;color:#fff}
+/* one pre-blended image: mirrored background | her photo | mirrored background, so there are no seams */
+.hero .blur{display:none}
+.hero .main{position:absolute;z-index:-2;inset:0;background:url("media/hero-banner.jpg") 50% 12%/cover no-repeat}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(40,24,30,.35) 0%,rgba(40,24,30,0) 22%,rgba(40,24,30,0) 50%,rgba(40,24,30,.55) 82%,rgba(40,24,30,.7) 100%)}
+@media (max-width:700px){
+  .hero{height:auto;min-height:0;aspect-ratio:718/1086;max-height:none}
+}
+.hero .copy{padding-block:0 9vh;padding-inline:16px}
+.hero .label{color:var(--yellow);text-shadow:0 1px 8px rgba(0,0,0,.4)}
+.hero h1{font-family:var(--mark);font-weight:300;font-size:clamp(2.2rem,6.4vw,5rem);letter-spacing:.2em;text-transform:uppercase;line-height:1.1;margin:12px 0 6px;text-shadow:0 2px 20px rgba(0,0,0,.35)}
+.hero .script{font-family:var(--script);font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.1;margin:0 0 22px;text-shadow:0 2px 16px rgba(0,0,0,.4)}
+.hero .btns{justify-content:center}
+
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:999px;text-decoration:none;font-weight:700;font-size:1rem;border:1.5px solid var(--fg);color:var(--fg);background:transparent;font-family:var(--body);cursor:pointer}
+.btn:hover{background:var(--fg);color:var(--bg)}
+.btn.solid{background:var(--yellow);border-color:var(--yellow);color:var(--on-yellow)}
+.btn.solid:hover{background:var(--fg);border-color:var(--fg);color:var(--yellow)}
+.btn.light{border-color:#fff;color:#fff}
+.btn.light:hover{background:#fff;color:var(--fg)}
+.btn svg{width:14px;height:14px}
+
+/* sections */
+section{padding-block:76px;border-top:1px solid var(--line)}
+section:first-of-type{border-top:0}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:48px}
+@media (max-width:760px){.grid{grid-template-columns:minmax(0,1fr);gap:20px}}
+.prose{max-width:62ch}
+.prose p{margin:0 0 1.1em}
+.prose p:first-child{font-size:1.2rem}
+
+/* player */
+.player{background:#fff;border:1px solid var(--line);border-radius:18px;padding:clamp(20px,3.5vw,32px);display:grid;gap:20px}
+.player .top{display:flex;gap:18px;align-items:center}
+.pp{flex:none;width:64px;height:64px;border-radius:50%;border:0;background:var(--yellow);color:var(--on-yellow);display:grid;place-items:center;cursor:pointer}
+.pp svg{width:24px;height:24px}
+.player h3{font-size:clamp(1.6rem,3.2vw,2.1rem)}
+.player .meta{color:var(--muted);font-size:.95rem;margin-top:2px}
+.seek{height:6px;border-radius:3px;background:var(--blush);position:relative;cursor:pointer}
+.seek i{position:absolute;inset:0 auto 0 0;width:0;border-radius:3px;background:var(--accent)}
+.times{display:flex;justify-content:space-between;font-family:var(--mark);font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums;margin-top:8px}
+.player .note{font-size:.92rem;color:var(--muted);font-style:italic}
+.tracks{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.tracks li{border-bottom:1px solid var(--line)}
+.tracks li:last-child{border-bottom:0}
+.tracks button{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:1.6rem minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 4px;cursor:pointer;font-family:var(--body)}
+.tracks button:hover .tt{color:var(--accent)}
+.tracks button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+.tracks .n{font-family:var(--mark);font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.tracks .tt{font-weight:700;font-size:1.05rem}
+.tracks .tk{display:block;font-family:var(--mark);font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.tracks .d{font-family:var(--mark);font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.tracks li.on .n{color:var(--accent)}
+.tracks li.on .tt{color:var(--accent)}
+.players{display:grid;gap:16px}
+.player.featured{background:var(--surface);border-color:transparent;position:relative;overflow:hidden}
+.player.featured::after{content:"NEW";position:absolute;top:18px;right:20px;font-family:var(--mark);font-size:.7rem;letter-spacing:.2em;background:var(--yellow);color:var(--on-yellow);padding:5px 10px;border-radius:999px}
+.player.featured .seek{background:#fff}
+.player .sub{font-family:var(--mark);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:-4px 0 -8px}
+.also{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-top:16px;padding:18px 22px;border-radius:18px;background:var(--surface);text-decoration:none}
+.also strong{font-family:var(--script);font-size:1.9rem;line-height:1}
+.also span.s{color:var(--muted);font-size:.95rem}
+
+/* story */
+/* about: photo melts into the page, no frame */
+.meet{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(24px,4vw,56px);align-items:center}
+.blend{margin:0;max-width:100%;align-self:stretch;display:flex;align-items:center}
+.blend img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;display:block;border-radius:10px;box-shadow:0 24px 50px -28px rgba(63,37,51,.45)}
+@media (max-width:820px){
+  .meet{grid-template-columns:minmax(0,1fr)}
+  .blend{order:-1;max-width:460px;margin:0 auto}
+}
+.timeline{list-style:none;margin:28px 0 0;padding:0;display:grid;max-width:62ch}
+.timeline li{display:grid;grid-template-columns:7.5rem minmax(0,1fr);gap:20px;padding-block:16px;border-bottom:1px dashed var(--line)}
+.timeline .when{font-family:var(--mark);font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);padding-top:4px}
+.timeline strong{display:block}
+.timeline span.d{color:var(--muted);font-size:.95rem}
+@media (max-width:480px){.timeline li{grid-template-columns:minmax(0,1fr);gap:2px}}
+
+/* discography */
+.liner{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px clamp(18px,4vw,36px)}
+.liner header{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:8px;font-family:var(--mark);font-size:.76rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.liner ol{list-style:none;margin:0;padding:0}
+.liner li{display:grid;grid-template-columns:3rem minmax(0,1fr) auto;gap:12px;padding-block:14px;border-bottom:1px dotted var(--line);align-items:baseline}
+.liner li:last-child{border-bottom:0}
+.liner .side{font-family:var(--mark);font-weight:500;font-size:.85rem;letter-spacing:.1em;color:var(--accent)}
+.liner .fmt{color:var(--muted);text-align:right;font-size:.88rem}
+.liner .t{font-weight:700;font-size:1.08rem}
+.liner .n{display:block;color:var(--muted);font-size:.92rem}
+
+/* 2027 */
+.nash{position:relative;overflow:hidden;background:var(--yellow);color:var(--on-yellow);border-radius:24px;padding:clamp(28px,5vw,56px)}
+.nash::after{content:"2027";position:absolute;right:.04em;bottom:-.3em;font-family:var(--script);font-size:clamp(7rem,22vw,15rem);line-height:1;color:#fff;opacity:.4;pointer-events:none}
+.nash .label{color:var(--on-yellow)}
+.nash h2{max-width:14ch;position:relative}
+.nash p{max-width:46ch;margin:16px 0 26px;position:relative}
+.nash .btn{position:relative}
+
+/* prayer + booking */
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+@media (max-width:760px){.two{grid-template-columns:minmax(0,1fr)}}
+.two > div{border-radius:18px;padding:clamp(24px,4vw,36px);background:#fff;border:1px solid var(--line)}
+.two > div.pray{background:var(--blush);border-color:transparent}
+.two h3{font-family:var(--script);font-size:clamp(1.9rem,3.4vw,2.4rem);line-height:1.05;margin:6px 0 10px}
+.two p{color:var(--muted);margin:0 0 20px;max-width:42ch}
+
+footer{background:var(--fg);color:var(--bg)}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-block:36px 48px;font-size:.92rem}
+footer a{text-decoration:none;color:var(--yellow)}
+
+/* color bands: each section gets its own full-width background so sections read clearly while scrolling */
+:root{--plum:#3f2533;--plum-ink:#fbf3e6;--blush-band:#f9e3e4;--butter-band:#fdf1cf}
+section{border-top:0;position:relative;padding-block:clamp(64px,8vw,96px)}
+section[data-band]{background:var(--band);box-shadow:0 0 0 100vmax var(--band);clip-path:inset(0 -100vmax)}
+#listen{--band:var(--bg)}
+#story{--band:var(--butter-band)}
+#music{--band:var(--blush-band)}
+#nashville{--band:var(--plum);color:var(--plum-ink)}
+#connect{--band:var(--bg)}
+
+/* 2027: the deep plum moment */
+#nashville .nash{background:transparent;color:var(--plum-ink);padding:0;border-radius:0;overflow:visible}
+#nashville .nash::after{color:var(--yellow);opacity:.18;right:0;bottom:-.45em}
+#nashville .label{color:var(--yellow)}
+#nashville h2{color:var(--plum-ink)}
+#nashville p{color:rgba(251,243,230,.82)}
+#nashville .btn{border-color:var(--plum-ink);color:var(--plum-ink)}
+#nashville .btn:hover{background:var(--yellow);border-color:var(--yellow);color:var(--plum)}
+
+/* colored top strips on cards */
+.player{border-top:5px solid var(--accent)}
+.player.featured{border-top:5px solid var(--yellow)}
+.liner{border-top:5px solid var(--plum)}
+.two > div{border-top:5px solid var(--yellow)}
+.two > div.pray{background:#fff;border:1px solid var(--line);border-top:5px solid var(--accent)}
+#story .blend img{box-shadow:0 24px 50px -24px rgba(63,37,51,.5)}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#top">Cherri Dawn Redd</a>
+    <ul>
+      <li><a href="#listen">Listen</a></li>
+      <li><a href="#story">About</a></li>
+      <li><a href="#music">Music</a></li>
+      <li><a href="#nashville">2027</a></li>
+      <li><a href="#connect">Connect</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="hero" id="top" role="img" aria-label="Cherri Dawn Redd smiling, standing outdoors">
+  <div class="blur" aria-hidden="true"></div>
+  <div class="main" aria-hidden="true"></div>
+  <div class="copy">
+    <div class="label">Gospel singer &middot; Nashville</div>
+    <h1>Cherri Dawn Redd</h1>
+    <p class="script">New music coming in 2027</p>
+    <div class="btns">
+      <a class="btn solid" href="#listen"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>Hear the newest single</a>
+      <a class="btn light" href="https://www.facebook.com/profile.php?id=100063026991362" target="_blank" rel="noopener">Follow Cherri</a>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <section data-band id="listen">
+    <div class="grid">
+      <div>
+        <div class="label">Listen</div>
+        <h2>Hear Cherri sing</h2>
+      </div>
+      <div>
+        <div class="players">
+          <div class="player featured" data-player="newest">
+            <div class="top">
+              <button class="pp" type="button" aria-label="Play"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16l13-8z" fill="currentColor"/></svg></button>
+              <div>
+                <div class="label t-label"></div>
+                <h3 style="margin-top:4px" class="t-title"></h3>
+                <div class="meta t-meta"></div>
+              </div>
+            </div>
+            <div>
+              <div class="seek" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i></i></div>
+              <div class="times"><span class="cur">0:00</span><span class="dur">0:00</span></div>
+            </div>
+            <audio preload="metadata"></audio>
+          </div>
+
+          <div class="player" data-player="singles">
+            <div class="sub">Singles</div>
+            <div class="top">
+              <button class="pp" type="button" aria-label="Play"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16l13-8z" fill="currentColor"/></svg></button>
+              <div>
+                <div class="label t-label"></div>
+                <h3 style="margin-top:4px" class="t-title"></h3>
+                <div class="meta t-meta"></div>
+              </div>
+            </div>
+            <div>
+              <div class="seek" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i></i></div>
+              <div class="times"><span class="cur">0:00</span><span class="dur">0:00</span></div>
+            </div>
+            <ol class="tracks" aria-label="Singles"></ol>
+            <audio preload="metadata"></audio>
+          </div>
+        </div>
+        <a class="also" href="https://www.youtube.com/watch?v=FLbRof1CWjw" target="_blank" rel="noopener">
+          <div><strong>Sonlight</strong><br><span class="s">Watch Cherri sing it on YouTube</span></div>
+          <span class="btn"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>Watch</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section data-band id="story">
+    <div class="meet">
+      <div>
+        <div class="label">About</div>
+        <h2>Meet Cherri</h2>
+        <div class="prose" style="margin-top:18px">
+          <p>Cherri Dawn Redd sings gospel with a big voice and an even bigger heart.</p>
+          <p>You may have seen her on TBN, where she has sung for viewers across the country. For years she has led a ministry built on worship, encouragement, and prayer, and she loves lifting people up through music.</p>
+          <p>Cherri has a studio album and several singles to her name. Right now she is in Nashville recording her next project, set for release in 2027.</p>
+        </div>
+        <ol class="timeline">
+          <li><span class="when">On air</span><div><strong>Featured on TBN</strong><span class="d">Singing for a national audience on the Trinity Broadcasting Network.</span></div></li>
+          <li><span class="when">Ministry</span><div><strong>Worship &amp; prayer</strong><span class="d">Leading a ministry built on worship, encouragement, and prayer.</span></div></li>
+          <li><span class="when">Recorded</span><div><strong>Studio album and singles</strong><span class="d">One full-length studio album and several singles.</span></div></li>
+          <li><span class="when">2027</span><div><strong>New Nashville record</strong><span class="d">Recording now, with release expected in 2027.</span></div></li>
+        </ol>
+      </div>
+      <figure class="blend"><img src="media/headshot.jpg" alt="Cherri Dawn Redd, studio portrait"></figure>
+    </div>
+  </section>
+
+  <section data-band id="music">
+    <div class="grid">
+      <div>
+        <div class="label">Music</div>
+        <h2>Her recordings</h2>
+      </div>
+      <div class="liner">
+        <header><span>Cherri Dawn Redd</span><span>Selected works</span></header>
+        <ol>
+          <li><span class="side">NEW</span><span><span class="t">Always On Time</span><span class="n">Newest single &middot; preview, listen above</span></span><span class="fmt">Single</span></li>
+          <li><span class="side">&#9654;</span><span><span class="t">Sonlight</span><span class="n">Performance on YouTube</span></span><span class="fmt">Video</span></li>
+          <li><span class="side">LP</span><span><span class="t">Studio Album</span><span class="n">Her full-length studio record</span></span><span class="fmt">Album</span></li>
+          <li><span class="side">45</span><span><span class="t">He's Been Faithful</span><span class="n">Single &middot; listen above</span></span><span class="fmt">Single</span></li>
+          <li><span class="side">45</span><span><span class="t">Standing on the Promises</span><span class="n">Single &middot; listen above</span></span><span class="fmt">Single</span></li>
+          <li><span class="side">45</span><span><span class="t">He Rescued Me</span><span class="n">Single &middot; listen above</span></span><span class="fmt">Single</span></li>
+          <li><span class="side">45</span><span><span class="t">He's Still the Only Way</span><span class="n">Single &middot; listen above</span></span><span class="fmt">Single</span></li>
+          <li><span class="side">TBN</span><span><span class="t">Television performances</span><span class="n">Live on the Trinity Broadcasting Network</span></span><span class="fmt">Broadcast</span></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section data-band id="nashville">
+    <div class="nash">
+      <div class="label">Now recording &middot; Nashville, Tennessee</div>
+      <h2>A brand-new record</h2>
+      <p>Cherri is in the studio in Nashville right now. Follow along for studio moments, first listens, and the big release day in 2027.</p>
+      <a class="btn" href="https://www.facebook.com/profile.php?id=100063026991362" target="_blank" rel="noopener">Get the updates</a>
+    </div>
+  </section>
+
+  <section data-band id="connect">
+    <div class="two">
+      <div class="pray">
+        <div class="label">Prayer</div>
+        <h3>Send a prayer request</h3>
+        <p>&ldquo;Send me your prayer requests.&rdquo; Cherri would love to pray for you and your family.</p>
+        <a class="btn" href="https://www.facebook.com/profile.php?id=100063026991362" target="_blank" rel="noopener">Message Cherri</a>
+      </div>
+      <div>
+        <div class="label">Booking</div>
+        <h3>Invite Cherri to sing</h3>
+        <p>Church services, worship nights, conferences, women's events, and celebrations.</p>
+        <a class="btn solid" href="https://www.facebook.com/profile.php?id=100063026991362" target="_blank" rel="noopener">Booking inquiries</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span class="mark">Cherri Dawn Redd</span>
+    <span><a href="https://www.youtube.com/watch?v=FLbRof1CWjw" target="_blank" rel="noopener">YouTube</a> &nbsp;&middot;&nbsp; <a href="https://www.facebook.com/profile.php?id=100063026991362" target="_blank" rel="noopener">Facebook</a></span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  function fmt(t){t=Math.max(0,Math.floor(t||0));return Math.floor(t/60)+':'+String(t%60).padStart(2,'0')}
+  var PLAY='<path d="M7 4v16l13-8z" fill="currentColor"/>',PAUSE='<path d="M6 4h4v16H6zM14 4h4v16h-4z" fill="currentColor"/>';
+  var all=[];
+  function makePlayer(root,tracks){
+    var a=root.querySelector('audio'),pp=root.querySelector('.pp'),ico=root.querySelector('.ico'),bar=root.querySelector('.seek'),fill=bar.querySelector('i'),
+        cur=root.querySelector('.cur'),dur=root.querySelector('.dur'),list=root.querySelector('.tracks'),k=0,items=[];
+    all.push(a);
+    tracks.forEach(function(t,i){
+      var probe=new Audio();probe.preload='metadata';probe.src=t.src;
+      if(!list){probe.onloadedmetadata=function(){if(isFinite(probe.duration)&&a.paused&&!a.currentTime)dur.textContent=fmt(probe.duration)};return}
+      var li=document.createElement('li'),b=document.createElement('button');b.type='button';
+      b.innerHTML='<span class="n">'+(i+1)+'</span><span><span class="tt"></span><span class="tk"></span></span><span class="d">&nbsp;</span>';
+      b.querySelector('.tt').textContent=t.title;b.querySelector('.tk').textContent=t.kind;
+      b.onclick=function(){if(k===i){toggle();return}load(i);a.play().catch(function(){})};
+      li.appendChild(b);list.appendChild(li);items.push(li);
+      probe.onloadedmetadata=function(){if(isFinite(probe.duration)){li.querySelector('.d').textContent=fmt(probe.duration);if(i===k&&a.paused&&!a.currentTime)dur.textContent=fmt(probe.duration)}};
+    });
+    function load(i){k=i;var t=tracks[i];a.src=t.src;
+      root.querySelector('.t-title').textContent=t.title;root.querySelector('.t-label').textContent=t.kind;root.querySelector('.t-meta').textContent=t.meta;
+      items.forEach(function(li,j){li.classList.toggle('on',j===i)});fill.style.width='0%';cur.textContent='0:00';
+      if(items[i])dur.textContent=items[i].querySelector('.d').textContent.trim()||'0:00'}
+    function toggle(){if(a.paused)a.play().catch(function(){});else a.pause()}
+    load(0);
+    pp.onclick=toggle;
+    a.onended=function(){if(k<tracks.length-1){load(k+1);a.play().catch(function(){})}};
+    a.onplay=function(){all.forEach(function(o){if(o!==a&&!o.paused)o.pause()});ico.innerHTML=PAUSE;pp.setAttribute('aria-label','Pause '+tracks[k].title)};
+    a.onpause=function(){ico.innerHTML=PLAY;pp.setAttribute('aria-label','Play '+tracks[k].title)};
+    a.onloadedmetadata=function(){if(isFinite(a.duration))dur.textContent=fmt(a.duration)};
+    a.ontimeupdate=function(){var p=a.duration?a.currentTime/a.duration:0;fill.style.width=(p*100)+'%';cur.textContent=fmt(a.currentTime);bar.setAttribute('aria-valuenow',Math.round(p*100))};
+    function seek(e){var r=bar.getBoundingClientRect(),p=Math.min(1,Math.max(0,(e.clientX-r.left)/r.width));if(a.duration)a.currentTime=p*a.duration}
+    bar.addEventListener('pointerdown',function(e){seek(e);bar.setPointerCapture(e.pointerId)});
+    bar.addEventListener('pointermove',function(e){if(e.buttons)seek(e)});
+    bar.addEventListener('keydown',function(e){if(!a.duration)return;if(e.key==='ArrowRight')a.currentTime=Math.min(a.duration,a.currentTime+10);if(e.key==='ArrowLeft')a.currentTime=Math.max(0,a.currentTime-10)});
+  }
+  makePlayer(document.querySelector('[data-player="newest"]'),[
+    {title:'Always On Time',kind:'Newest single · Preview',meta:'A first listen from the Nashville sessions. Cherri’s vocals are coming soon.',src:'media/always-on-time-demo.mp3'}
+  ]);
+  makePlayer(document.querySelector('[data-player="singles"]'),[
+    {title:"He's Been Faithful",kind:'Single',meta:'Cherri Dawn Redd',src:'media/hes-been-faithful.mp3'},
+    {title:'Standing on the Promises',kind:'Single',meta:'Cherri Dawn Redd',src:'media/standing-on-the-promises.mp3'},
+    {title:'He Rescued Me',kind:'Single',meta:'Cherri Dawn Redd',src:'media/he-rescued-me.mp3'},
+    {title:"He's Still the Only Way",kind:'Single',meta:'Cherri Dawn Redd',src:'media/hes-still-the-only-way.mp3'}
+  ]);
+})();
+</script>
+
+</body>
+</html>
